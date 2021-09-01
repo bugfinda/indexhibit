@@ -24,7 +24,7 @@ class Installation
 
 	public function __construct()
 	{
-		require_once '../ndxzsite/config/options.php';
+		require_once 'options.php';
 		require_once 'defaults.php';
 		require_once 'common.php';
 		require_once './helper/entrance.php';
